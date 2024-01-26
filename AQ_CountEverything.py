@@ -124,8 +124,11 @@ def main():
             print()
             print("End of program. Thank you.")
             break
-        elif rerun_option == "N" or rerun_option == "NO" or rerun_option == "no" or rerun_option == "No":
+        if rerun_option == "N" or rerun_option == "NO" or rerun_option == "no" or rerun_option == "No":
             continue
+        else:
+            print("Invalid response. Please rerun the program.\nGoodbye.")
+            break
 
 
 if __name__ == "__main__":
