@@ -119,12 +119,12 @@ def main():
         count()
         pointlist()
         rerun_option = input(
-            "If you are finished with this program, please type Y, otherwise, type N")
-        if rerun_option == "Y" or rerun_option == "YES" or rerun_option == "yes" or rerun_option == "Yes":
+            "If you are finished with this program, please type Y, otherwise if you would like to use the program again, type N: ")
+        if rerun_option == "Y" or rerun_option == "y" or rerun_option == "YES" or rerun_option == "yes" or rerun_option == "Yes":
             print()
-            print("End of program. Thank you.")
+            print("End of program. Thank you.\nGoodbye.")
             break
-        if rerun_option == "N" or rerun_option == "NO" or rerun_option == "no" or rerun_option == "No":
+        if rerun_option == "N" or rerun_option == "n" or rerun_option == "NO" or rerun_option == "no" or rerun_option == "No":
             continue
         else:
             print("Invalid response. Please rerun the program.\nGoodbye.")
